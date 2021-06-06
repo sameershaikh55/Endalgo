@@ -37,13 +37,16 @@ const PublicEventBody = () => {
 		<div className="publicEventBody_container">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-7 mx-auto mt-4">
+					<div className="col-md-8 col-lg-7 mx-auto mt-4 px-0 px-md-3">
 						{/* BANNER START */}
 						<div>
 							<img width="100%" src={publicBody} alt="" />
 						</div>
 						{/* BANNER END */}
-
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-md-8 col-lg-7 mx-auto mt-0 mt-md-4">
 						{/* RATING START */}
 						<div className="mt-3 d-flex align-items-center">
 							<FaStar fontSize="1.2rem" color="#ffd317" className="me-2" />
@@ -147,28 +150,32 @@ const PublicEventBody = () => {
 						{/* PARTICIPANT START */}
 						<div className="participants py-2">
 							<h4 className="fw-bold">Participants</h4>
-							<div className="d-flex align-items-center">
-								<img
-									className="rounded-circle"
-									src={personPlaceholder}
-									alt="personPlaceholder"
-								/>
-								<img
-									className="rounded-circle ms-1"
-									src={personPlaceholder}
-									alt="personPlaceholder"
-								/>
-								<img
-									className="rounded-circle ms-1"
-									src={personPlaceholder}
-									alt="personPlaceholder"
-								/>
-								<img
-									className="rounded-circle ms-1"
-									src={personPlaceholder}
-									alt="personPlaceholder"
-								/>
-								<h5 className="greenColor ms-2">24 people are going.</h5>
+							<div className="d-flex align-items-md-center flex-column flex-md-row">
+								<div>
+									<img
+										className="rounded-circle"
+										src={personPlaceholder}
+										alt="personPlaceholder"
+									/>
+									<img
+										className="rounded-circle ms-1"
+										src={personPlaceholder}
+										alt="personPlaceholder"
+									/>
+									<img
+										className="rounded-circle ms-1"
+										src={personPlaceholder}
+										alt="personPlaceholder"
+									/>
+									<img
+										className="rounded-circle ms-1"
+										src={personPlaceholder}
+										alt="personPlaceholder"
+									/>
+								</div>
+								<h6 className="greenColor ms-2 mb-0 mt-2 mt-md-0">
+									24 people are going.
+								</h6>
 							</div>
 						</div>
 						{/* PARTICIPANT END */}
@@ -182,8 +189,8 @@ const PublicEventBody = () => {
 								const { col1, col2 } = prev;
 								return (
 									<div key={i} className="row">
-										<div className="col-4 lightColor">{col1}</div>
-										<div className="col-8 fw-bold">{col2}</div>
+										<div className="col-12 col-md-4 lightColor">{col1}</div>
+										<div className="col-12 col-md-8 fw-bold">{col2}</div>
 										<br />
 										<br />
 									</div>

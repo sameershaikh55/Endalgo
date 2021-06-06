@@ -8,16 +8,16 @@ import { NavLink } from "react-router-dom";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Header = () => {
+const Header = ({ ClickEvent }) => {
 	return (
 		<div className="headerContainer">
 			<div className="innerHeaderContainer">
 				<div className="container-fluid">
 					<div className="d-flex justify-content-between align-items-center">
 						<div>
-							<img src={logo} alt="logo" />
+							<img className="logo" src={logo} alt="logo" />
 						</div>
-						<div className="d-block d-lg-none">
+						<div onClick={ClickEvent} className="d-block d-lg-none">
 							<GiHamburgerMenu fontSize="1.8rem" />
 						</div>
 						<div className="navLinks position-absolute d-none d-lg-block">
