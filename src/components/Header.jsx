@@ -8,7 +8,11 @@ import { NavLink } from "react-router-dom";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+import { useHistory } from "react-router-dom";
+
 const Header = ({ ClickEvent }) => {
+	let history = useHistory();
+
 	return (
 		<div className="headerContainer">
 			<div className="innerHeaderContainer">
@@ -44,7 +48,12 @@ const Header = ({ ClickEvent }) => {
 							</ul>
 						</div>
 						<div className="btnContainer d-none d-lg-block">
-							<button className="themeBtn1 py-1 px-3 me-2">Start Group</button>
+							<button
+								onClick={() => history.push("/start_group")}
+								className="themeBtn1 py-1 px-3 me-2"
+							>
+								Start Group
+							</button>
 							<button className="themeBtn2 py-1 px-3">Download the app</button>
 						</div>
 					</div>
