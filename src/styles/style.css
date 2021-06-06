@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   padding: 0%;
   margin: 0%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -46,9 +48,95 @@ html {
   }
 }
 
+.themeBtn1 {
+  color: #fb0a12;
+  border: 1px solid #fb0a12;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.themeBtn2 {
+  color: white;
+  background: #fb0a12;
+  border: 1px solid #fb0a12;
+  border-radius: 4px;
+}
+
+.lightColor {
+  color: #676767;
+}
+
+.greenColor {
+  color: #00c457;
+}
+
 .headerContainer {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+  background: #ffff;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.6rem 0rem;
+}
+
+.headerContainer .innerHeaderContainer {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.headerContainer .navLinks {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+}
+
+.headerContainer .navLinks ul li a {
+  font-size: 1rem;
+}
+
+.publicEventBody_container {
+  margin-top: 4rem;
+}
+
+.publicEventBody_container .hosted img {
+  height: 50px;
+  width: 48px;
+}
+
+.publicEventBody_container .group img {
+  height: 48px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+.publicEventBody_container .description h5 {
+  font-size: 1rem;
+  line-height: 28px;
+}
+
+.publicEventBody_container .participants img {
+  height: 80px;
+  width: 80px;
+}
+
+.footerContainer {
+  width: 100%;
+  border-top: 1px solid #e1e1e1;
+}
+
+.footerContainer .innerFooter {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerContainer .footerLine {
+  height: 100%;
+  width: 3px;
+  background: #000;
 }
 /*# sourceMappingURL=style.css.map */

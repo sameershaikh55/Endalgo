@@ -1,18 +1,26 @@
 import React from "react";
 import { logo } from "../assets/images";
-import { RiArrowDownSLine } from "react-icons/ri";
+
+// IMPORTING LINKS
 import { NavLink } from "react-router-dom";
+
+// IMPORTING ICONS
+import { RiArrowDownSLine } from "react-icons/ri";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
 	return (
-		<div className="headerContainer position-relative">
+		<div className="headerContainer">
 			<div className="innerHeaderContainer">
 				<div className="container-fluid">
 					<div className="d-flex justify-content-between align-items-center">
 						<div>
 							<img src={logo} alt="logo" />
 						</div>
-						<div className="navLinks position-absolute">
+						<div className="d-block d-lg-none">
+							<GiHamburgerMenu fontSize="1.8rem" />
+						</div>
+						<div className="navLinks position-absolute d-none d-lg-block">
 							<ul className="list-unstyled d-flex">
 								<li className="fw-bold me-5">
 									<NavLink
@@ -35,7 +43,7 @@ const Header = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="btnContainer">
+						<div className="btnContainer d-none d-lg-block">
 							<button className="themeBtn1 py-1 px-3 me-2">Start Group</button>
 							<button className="themeBtn2 py-1 px-3">Download the app</button>
 						</div>
