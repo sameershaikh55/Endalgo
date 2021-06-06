@@ -61,6 +61,12 @@ html {
 	border-radius: 4px;
 }
 
+.themeBtn3 {
+	border-radius: 2px;
+	border: solid 1px #e1e1e1;
+	background-color: #f1f1f1;
+}
+
 .lightColor {
 	color: #676767;
 }
@@ -69,6 +75,17 @@ html {
 	color: #00c457;
 }
 
+.redColor {
+	color: #fb0a12;
+}
+
+.borderRound {
+	border-radius: 6px;
+}
+
+.pointer {
+	cursor: pointer;
+}
 // ===== HEADER START ======
 .headerContainer {
 	position: fixed;
@@ -252,3 +269,12 @@ html {
 	}
 }
 // ===== FOOTER END ======
+
+// ===== UPCOMING EVENT START ======
+.cardContainer {
+	padding: 0rem 0.8rem;
+}
+.eventCard {
+	border: solid 1px #e1e1e1;
+}
+// ===== UPCOMING EVENT END ======

@@ -18,7 +18,7 @@ const Header = ({ ClickEvent }) => {
 			<div className="innerHeaderContainer">
 				<div className="container-fluid">
 					<div className="d-flex justify-content-between align-items-center">
-						<div>
+						<div className="pointer" onClick={() => history.push("/")}>
 							<img className="logo" src={logo} alt="logo" />
 						</div>
 						<div onClick={ClickEvent} className="d-block d-lg-none">

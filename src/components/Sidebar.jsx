@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 				<li>
 					<NavLink
 						className="text-dark text-decoration-none"
-						activeClass="activeNav"
+						activeClassName="activeNav"
 						to="/"
 					>
 						Product
@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 				<li>
 					<NavLink
 						className="text-dark text-decoration-none"
-						activeClass="activeNav"
+						activeClassName="activeNav"
 						to="/signup"
 					>
 						How it works
@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 				<li>
 					<NavLink
 						className="text-dark text-decoration-none"
-						activeClass="activeNav"
+						activeClassName="activeNav"
 						to="/signup"
 					>
 						Company

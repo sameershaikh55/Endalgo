@@ -36,7 +36,7 @@ const Footer = () => {
 			<div className="innerFooter">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-12 col-md-3 pt-5 pt-md-0 py-0 py-md-5">
+						<div className="col-12 col-md-3 pt-5">
 							<img src={logo} alt="logo" />
 						</div>
 						{/* FOR MOBILE VIEW START */}
@@ -52,7 +52,7 @@ const Footer = () => {
 									)}
 								</div>
 								{footer.about && (
-									<div className="mt-2 openSection">
+									<div className="mt-2">
 										<h5 className="fw-bold">Company</h5>
 										<h5 className="fw-bold">Jobs</h5>
 										<h5 className="fw-bold">Blog</h5>
@@ -70,7 +70,7 @@ const Footer = () => {
 									)}
 								</div>
 								{footer.product && (
-									<div className="mt-2 openSection">
+									<div className="mt-2">
 										<h5 className="fw-bold">How It works</h5>
 										<h5 className="fw-bold">Group Management</h5>
 										<ul className="list-unstyled mb-2">
@@ -92,7 +92,7 @@ const Footer = () => {
 									)}
 								</div>
 								{footer.explore && (
-									<div className="mt-2 openSection">
+									<div className="mt-2">
 										<h5 className="fw-bold">Topics</h5>
 										<h5 className="fw-bold">Group Management</h5>
 										<h5 className="fw-bold">Browse Cities</h5>
@@ -110,7 +110,7 @@ const Footer = () => {
 									)}
 								</div>
 								{footer.support && (
-									<div className="mt-2 openSection">
+									<div className="mt-2">
 										<h5 className="fw-bold">Help Center</h5>
 										<h5 className="fw-bold">Contact Us</h5>
 									</div>
@@ -155,7 +155,7 @@ const Footer = () => {
 								@2020 ENDALGO, Inc. all rights reservrd ・ Privacy ・ Terms ・
 								Sitemap
 							</small>
-							<div className="d-flex justify-content-center flex-wrap mt-3 mt-md-0">
+							<div className="d-flex justify-content-center flex-wrap mt-3 mt-md-0 mb-2">
 								<img src={facebook} alt="facebook" />
 								<img src={linkedin} className="ms-4" alt="linkedin" />
 								<img src={instagram} className="ms-4" alt="instagram" />

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../components/Footer";
+import GroupBody from "../components/GroupBody";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 
@@ -13,6 +14,7 @@ const Mw_group = () => {
 		<>
 			<Header ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
+			<GroupBody />
 			<Footer />
 		</>
 	);
