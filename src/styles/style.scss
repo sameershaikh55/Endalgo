@@ -114,6 +114,19 @@ html {
 					font-size: 1rem;
 				}
 			}
+			li.nestedOne:hover .nestedNav {
+				display: block;
+				opacity: 1;
+			}
+		}
+
+		.nestedNav {
+			left: 0%;
+			width: 125px;
+			border: 1px solid rgb(242, 242, 242);
+			display: none;
+			opacity: 0;
+			transition: 1s;
 		}
 	}
 

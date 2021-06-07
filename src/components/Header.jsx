@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { logo } from "../assets/images";
 
 // IMPORTING LINKS
@@ -26,7 +26,7 @@ const Header = ({ ClickEvent }) => {
 						</div>
 						<div className="navLinks position-absolute d-none d-lg-block">
 							<ul className="list-unstyled d-flex">
-								<li className="fw-bold me-5">
+								<li className="nestedOne fw-bold me-5 position-relative">
 									<NavLink
 										to="/"
 										className="d-flex align-items-center text-dark text-decoration-none"
@@ -34,6 +34,13 @@ const Header = ({ ClickEvent }) => {
 										Product{" "}
 										<RiArrowDownSLine fontSize="1.4rem" className="ms-2" />
 									</NavLink>
+									<div className="position-absolute bg-white shadow py-1 px-2 borderRound nestedNav">
+										<ul className="list-unstyled">
+											<li className="pointer">lorem lorem</li>
+											<li className="pointer">lorem</li>
+											<li className="pointer">lorem</li>
+										</ul>
+									</div>
 								</li>
 								<li className="fw-bold me-5">
 									<NavLink to="/" className="text-dark text-decoration-none">

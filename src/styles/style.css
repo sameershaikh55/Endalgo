@@ -116,6 +116,21 @@ html {
   font-size: 1rem;
 }
 
+.headerContainer .navLinks ul li.nestedOne:hover .nestedNav {
+  display: block;
+  opacity: 1;
+}
+
+.headerContainer .navLinks .nestedNav {
+  left: 0%;
+  width: 125px;
+  border: 1px solid #f2f2f2;
+  display: none;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .headerContainer .logo {
   width: 100%;
 }
