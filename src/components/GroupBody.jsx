@@ -9,7 +9,7 @@ const GroupBody = () => {
 		<div className="publicEventBody_container mt-5">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-12 px-3 col-md-9 col-lg-7 mx-auto mt-4 px-0 px-md-3">
+					<div className="col-12 col-md-8 mx-auto mt-4">
 						<div className="row">
 							<div className="col-4">
 								<img

@@ -37,7 +37,7 @@ const PublicEventBody = () => {
 		<div className="publicEventBody_container">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-md-8 col-lg-7 mx-auto mt-4 px-0 px-md-3">
+					<div className="col-md-8 mx-auto mt-4 px-0 px-md-3">
 						{/* BANNER START */}
 						<div>
 							<img width="100%" src={publicBody} alt="" />
@@ -46,7 +46,7 @@ const PublicEventBody = () => {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-md-8 col-lg-7 mx-auto mt-0 mt-md-4">
+					<div className="col-md-8 mx-auto mt-0 mt-md-4">
 						{/* RATING START */}
 						<div className="mt-3 d-flex align-items-center">
 							<FaStar fontSize="1.2rem" color="#ffd317" className="me-2" />

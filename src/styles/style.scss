@@ -200,6 +200,10 @@ html {
 // ===== PUBLIC BODY START ======
 .publicEventBody_container {
 	margin-top: 4rem;
+	max-width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+
 	.hosted {
 		img {
 			height: 50px;
