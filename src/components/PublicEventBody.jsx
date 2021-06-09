@@ -77,7 +77,7 @@ const PublicEventBody = () => {
 						<div className="group pt-1 pb-2">
 							<h4 className="fw-bold">Group</h4>
 							<div className="d-flex align-items-center mt-3">
-								<img width="100%" src={publicBody} alt="" />
+								<img src={publicBody} alt="" />
 								<h6 className="ms-3 fw-bold me-3">
 									LA RED SHIELD PICK GAMES ! 5v5 / 6v6 / <br /> 7v7
 								</h6>
